@@ -1,0 +1,93 @@
+.pro-container {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(49, 49, 214, 1) 58%,
+    rgba(0, 1, 237, 1) 100%
+  );
+
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+.head-profile {
+  color: white;
+  border-radius: 6px;
+  background-color: rgb(243, 222, 34);
+}
+span {
+  color: rgb(236, 217, 49);
+}
+.pro-vision {
+  text-decoration: underline;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+a {
+  color: white;
+}
+table {
+  color: white;
+}
+th {
+  font-weight: bold;
+}
+@media only screen and (max-width: 450px) {
+  .pro-container {
+    height: 100%;
+  }
+  .pro-vision {
+    font-size: 14px;
+  }
+  li {
+    font-size: 13px;
+  }
+  .head-profile {
+    font-size: 18px;
+  }
+  p {
+    font-size: 13px;
+  }
+  th {
+    font-size: 13px;
+  }
+  td {
+    font-size: 11px;
+  }
+}
+.thankyou {
+  color: white;
+  text-align: center;
+  margin: 2em;
+}
+
+@media only screen and (min-width: 451px) and (max-width: 720px) {
+  .pro-container {
+    height: 100%;
+  }
+  .pro-vision {
+    font-size: 16px;
+  }
+  li {
+    font-size: 15px;
+  }
+  .head-profile {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  th {
+    font-size: 15px;
+  }
+  td {
+    font-size: 13px;
+  }
+}

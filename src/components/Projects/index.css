@@ -1,0 +1,65 @@
+.project-container {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(49, 49, 214, 1) 58%,
+    rgba(0, 1, 237, 1) 100%
+  );
+
+  width: 100%;
+  max-height: auto;
+  min-height: 100vh;
+
+  padding: 1em;
+}
+.player {
+  border: 2px solid white;
+}
+.description {
+  color: white;
+}
+.title {
+  color: white;
+}
+p {
+  color: aliceblue;
+}
+h2 {
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: rgb(204, 185, 12);
+  padding-left: 2px;
+  font-size: 28px;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: start;
+  width: 110px;
+}
+
+.card {
+  background-color: rgb(204, 185, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  flex-wrap: wrap;
+  margin: 1em;
+  border-radius: 10px;
+}
+input {
+  margin: 5px;
+  height: 2em;
+}
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 770px) {
+  h2 {
+    font-size: 22px;
+  }
+}

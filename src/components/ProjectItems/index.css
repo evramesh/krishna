@@ -1,0 +1,46 @@
+.ul-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.li-box {
+  list-style-type: none;
+}
+li {
+  color: aliceblue;
+}
+.side {
+  color: rgba(1, 14, 131, 0.999);
+  background-color: rgb(234, 234, 241);
+  height: 5%;
+  border-radius: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center;
+}
+.side-1 {
+  width: 6em;
+}
+.side-2 {
+  width: 5em;
+}
+.side-3 {
+  width: 7em;
+}
+.title {
+  font-size: 20px;
+}
+@media only screen and (max-width: 400px) {
+  .side {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .description {
+    font-size: 12px;
+  }
+}
